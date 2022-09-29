@@ -47,7 +47,7 @@ router.post('/', async (req, res) => {
 });
 
 router.put('/:id', (req, res) => {
-  // todo update a tag's name by its `id` value
+  // updates a tag's name by its `id` value
   Tag.update(
     {
       // All the fields you can update and the data attached to the request body.
